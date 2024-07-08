@@ -1,0 +1,199 @@
+body{
+    background: black;
+}
+#face{
+    height: 200px;
+    width: 200px;
+    background: lightgreen;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 59%;
+    margin: auto;
+    margin-top: 15px;
+}
+#leye,#reye{
+    background: red;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+}
+#eyes{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 125px;
+}
+#leha,#reha{
+    height: 100px;
+    width: 25px;
+    background: pink;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+}
+#center{
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+#body{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 15px;
+}
+#lelg,#relg{
+    height: 200px;
+    width: 35px;
+    background: blue;
+    border-radius: 50px;
+}
+#legs{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: auto;
+    margin-top: -18px;
+}
+#main{
+    height: 680px;
+    width: 350px;
+    border: 3px solid mintcream;
+    margin: auto;
+    margin-top: 80px;
+}
+#main:hover #face{
+    width: 290px;
+    background: orangered;
+    animation: changeface 1s 10;
+}
+ @keyframes changeface{
+0%{
+    width: 200px;
+    background:yellowgreen ;
+    border-radius: 0%;
+}
+25%{
+    width: 250px;
+    background: hotpink;
+    border-radius: 25%;
+}
+50%{
+    width: 200px;
+    background:mediumorchid;
+    border-radius: 50%;
+}
+100%{
+    width: 200px;
+    background:brown;
+    border-radius: 100%;
+}
+}
+#main:hover #leha{
+    animation: changeleha 0.5s infinite;
+}
+@keyframes changeleha{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(270deg);
+        transform-origin: top center;
+
+    }
+}
+#main:hover #center{
+    animation: changecenter 0.5s infinite;   
+}
+@keyframes changecenter{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin:  top center;
+}
+}
+#main:hover #reha{
+    animation: changereha 0.5s infinite;
+}
+@keyframes changereha{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(270deg);
+        transform-origin:top center;
+
+    }
+}
+#main:hover #lelg{
+    animation: changelelg 0.5s infinite;
+}
+@keyframes changelelg{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(270deg);
+        transform-origin:top center;
+
+    }
+}
+#main:hover #relg{
+    animation: changerelg 0.5s infinite;
+}
+@keyframes changerelg{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(270deg);
+        transform-origin:top center;
+
+    }
+}
+#main:hover #reye{
+    animation: changereye 0.5s infinite;
+}
+@keyframes changereye{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(270deg);
+        transform-origin:top center;
+
+    }
+}
+#main:hover #leye{
+    animation: changeleye 0.5s infinite;
+}
+@keyframes changeleye{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(270deg);
+        transform-origin:top center;
+
+    }
+}
+
+
+
+
+
+    
